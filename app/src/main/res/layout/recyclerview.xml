@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time: "
+        android:layout_below="@+id/location"
+        android:layout_alignLeft="@+id/skillLevel"
+        android:layout_alignStart="@+id/skillLevel"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_toEndOf="@+id/date"
+        android:layout_toRightOf="@+id/date"/>
+
+    <TextView
+        android:id="@+id/sport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sport: "
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/sportIcon"
+        android:layout_toEndOf="@+id/sportIcon"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location: "
+        android:layout_below="@+id/sport"
+        android:layout_alignLeft="@+id/sport"
+        android:layout_alignStart="@+id/sport"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: "
+        android:layout_below="@+id/location"
+        android:layout_alignLeft="@+id/location"
+        android:layout_alignStart="@+id/location"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <ImageView
+        android:id="@+id/sportIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_soccer_ball"
+        android:layout_below="@+id/sport"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <TextView
+        android:id="@+id/skillLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skill Level: "
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_toEndOf="@+id/sport"
+        android:layout_toRightOf="@+id/sport"
+        android:layout_marginLeft="60dp" />
+
+
+</RelativeLayout>

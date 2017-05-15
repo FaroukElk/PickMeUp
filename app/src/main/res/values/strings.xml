@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Pick Me Up</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="filter">Filter Results</string>
+    <string name="apply_filter">Apply Filter</string>
+    <string name="create">Create New Event</string>
+    <string name="location">Location:</string>
+    <string name="skill">Skill Level:</string>
+    <string name="sport">Sport:</string>
+    <string name="date">Date:</string>
+    <string name="time">Time:</string>
+    <string name="date_format">MM/DD/YYYY</string>
+    <string name="tennis">Tennis</string>
+    <string name="baseball">Baseball</string>
+    <string name="softball">Softball</string>
+    <string name="lacrosse">Lacrosse</string>
+    <string name="sports">Sport(s):</string>
+    <string name="distance">Distance (miles):</string>
+    <string name="any">Any</string>
+    <string name="hockey">Hockey</string>
+    <string name="soccer">Soccer</string>
+    <string name="volleyball">Volleyball</string>
+    <string name="basketball">Basketball</string>
+
+
+    <string-array name="sports">
+        <item>Soccer</item>
+        <item>Basketball</item>
+        <item>Hockey</item>
+        <item>Tennis</item>
+        <item>Baseball</item>
+        <item>Softball</item>
+        <item>Lacrosse</item>
+        <item>Volleyball</item>
+    </string-array>
+
+    <string-array name="skill_level">
+        <item>Any</item>
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+
+    <string-array name="AMPM">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+    <string-array name="distances">
+        <item>Any</item>
+        <item>5</item>
+        <item>10</item>
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+</resources>
