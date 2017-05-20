@@ -2,7 +2,7 @@
 
 PickMeUp is an android app where users can find nearby pick up games for various sports. I decided to create this app because I enjoyed playing pick up soccer in college, but once I graduated and moved to a new area I had trouble finding a regular group to play with.
 
-#Introduction
+# Introduction
 
 When you launch the app, the home page features a Google Map Fragment, a button to switch the map to full screen mode, and a button to create a new event (plus sign button in bottom right corner).
 
